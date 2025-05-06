@@ -1,0 +1,21 @@
+:root {
+	color-scheme: light dark;
+	background-color: #242424;
+}
+
+body {
+	margin: 0;
+	min-width: 100dvw;
+	min-height: 100dvh;
+}
+
+#canvas {
+	position: absolute;
+	inset: 0;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		background-color: #ffffff;
+	}
+}
